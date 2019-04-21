@@ -6,6 +6,6 @@ resource "aws_s3_bucket" "newbucket" {
      Name = "terraform-state-april-mohammed2" 
      Env  = "dev" 
      Dept = "IT" 
-     Created_by = "mohammed1"
+     Created_by = "mohammed2"
   }
 }
