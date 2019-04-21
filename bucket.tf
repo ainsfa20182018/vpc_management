@@ -1,9 +1,9 @@
   
 resource "aws_s3_bucket" "newbucket" {
-  bucket = "terraform-january-mohammed1"
+  bucket = "terraform-state-april-mohammed11"
 
   tags {
-     Name = "terraform-january-mohammed1" 
+     Name = "terraform-state-april-mohammed1" 
      Env  = "dev" 
      Dept = "IT" 
      Created_by = "mohammed1"
