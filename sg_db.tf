@@ -1,6 +1,6 @@
 resource "aws_security_group" "allow_mysql" {
   name        = "allow_mysql"
-  description = "Allow SSH inbound traffic"
+  description = "Allow MYSQL inbound traffic"
   vpc_id      = "${aws_vpc.dev.id}"
 
   ingress {
