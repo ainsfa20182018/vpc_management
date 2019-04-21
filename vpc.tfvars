@@ -9,3 +9,8 @@ Appname =  "wordpress"
 min_size = 1
 max_size = 12
 desired_capacity = 3
+DBname   ="mysql"
+
+db_min_size = 1
+db_max_size = 12
+db_desired_capacity = 3
