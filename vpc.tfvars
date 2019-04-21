@@ -5,3 +5,7 @@ key_name ="developer"
 create_by = "mohammed"
 env       = "Dev"
 dept =  "IT"
+Appname =  "wordpress"
+min_size = 1
+max_size = 12
+desired_capacity = 3
