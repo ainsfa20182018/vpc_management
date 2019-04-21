@@ -1,8 +1,7 @@
 terraform {
-  backeed "s3" {
-     buket = "terraform-state-january-mohammed"
-
+  backend "s3" {
+     bucket = "terraform-state-january-farrukh1"
      key = "infra.state"
-     region = "eu-west-1"
+     region = "eu-west-1" 
   }
 }
